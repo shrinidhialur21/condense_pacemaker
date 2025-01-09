@@ -54,7 +54,7 @@ function App() {
 
   useEffect(() => {
     // Connect to Socket.IO server
-    const newSocket = io("http://localhost:8080");
+    const newSocket = io("https://ncvocj.condense.zeliot.in/46311550-f13b-4cc1-b9f3-b0a9f4ef9185");
     setSocket(newSocket);
 
     newSocket.on("connect", () => console.log("Socket.IO connected"));
